@@ -1,0 +1,38 @@
+p,
+h1,
+button,
+a {
+  padding: 0;
+  margin: 0;
+  font-family: Gabarito;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(248, 255, 247, 1);
+}
+
+/* Universal usage - HEADER */
+.responsive-nav {
+  display: none;
+}
+
+
+
+/* Universal usage - GENERAL USAGE */
+
+
+
+/* Universal usage - WAITLIST */
+
+
+/* Universal usage -STORE ACCESS */
+
+
+
+
+/* Universal usage - FOOTER */
