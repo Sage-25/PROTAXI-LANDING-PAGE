@@ -17,15 +17,30 @@ body {
   background-color: rgba(248, 255, 247, 1);
 }
 
+main {
+  display: grid;
+  justify-content: center;
+  margin-inline: 2rem;
+}
+
+section {
+  max-width: 75rem;
+}
+
 /* Universal usage - HEADER */
 .responsive-nav {
   display: none;
 }
 
 /* Web nav header implementation */
-.nav,
-.web-nav {
+.header-wrapper {
   justify-items: center;
+  background-image: url(/landing-image-asset/hero-image.svg);
+  background-repeat: no-repeat;
+  height: 53rem;
+  background-size: 100%;
+  position: relative;
+  z-index: 5;
 }
 
 .nav-bar-main {
@@ -37,7 +52,8 @@ body {
   border: 0.02rem solid rgba(239, 241, 239, 1);
   border-radius: 5rem;
   padding: 0.563rem;
-  margin-block-start: 1rem;
+  position: relative;
+  top: 1rem;
 }
 
 .main-navigation {
@@ -45,7 +61,6 @@ body {
   grid-template-columns: 5rem 6rem 5rem 5rem 5rem;
   gap: 1rem;
   align-items: center;
-  width: 80%;
 }
 
 .home-nav,
@@ -61,7 +76,6 @@ body {
 .products-nav {
   display: grid;
   grid-template-columns: 1fr auto;
-  align-items: center;
 }
 
 .chevron-bottom {
@@ -84,7 +98,44 @@ body {
 }
 
 /* Universal usage - GENERAL USAGE */
+.tag-container {
+  width: fit-content;
+  background-color: rgba(89, 181, 71, 1);
+  padding: 0.625rem 1.063rem;
+  border-radius: 5rem;
+  margin-block-end: 1rem;
+}
 
+.tag-text {
+  font-size: 0.75rem;
+  color: white;
+}
+
+/* BUTTONS WHITE FILLED */
+.store-buttons-main-filled {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.store-buttons-filled {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border: 0 solid;
+  background-color: white;
+  border-radius: 5rem;
+}
+
+.store-text-filled {
+  font-size: 1rem;
+  text-align: start;
+  color: rgba(25, 27, 24, 1);
+}
 
 /* Universal usage - WAITLIST */
 

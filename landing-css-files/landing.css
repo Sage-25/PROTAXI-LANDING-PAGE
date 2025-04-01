@@ -1,13 +1,77 @@
+.home-nav {
+  background-color: rgba(89, 181, 71, 1);
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 5rem;
+}
+
+/* Home-hero-section */
 .home-hero-section {
-  justify-items: center;
+  display: grid;
+  justify-content: center;
+  margin-block-start: 13rem;
+  max-width: 40rem;
+}
+
+.home-hero-section {
+  display: grid;
+  text-align: center;
+}
+
+.hero-header-two {
+  color: white;
+  font-size: 4.375rem;
+  margin-block-end: 1rem;
+  width: 100%;
+  line-height: 4.5rem;
+}
+
+.hero-header-body {
+  color: rgba(248, 255, 247, 1);
+  margin-block-end: 2rem;
+  width: 100%;
+}
+
+/* .trans-arrow {
   position: relative;
-  bottom: 5.2rem;
+  bottom: 4rem;
+  left: 10rem;
+} */
+
+/* Second-section iteration */
+.second-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-block-start: -3rem;
+  margin-block-end: 7rem;
 }
 
-.home-image-container {
-  max-width: 100%;
+.second-section-text {
+  display: grid;
+  gap: 1rem;
+  max-width: 35rem;
 }
 
-.home-image {
-  width: 166rem;
+.second-section-header {
+  font-size: 2.75rem;
+  font-weight: bold;
+  color: rgba(25, 27, 24, 1);
 }
+
+.second-section-body {
+  font-size: 1.25rem;
+  color: rgba(100, 108, 96, 1);
+}
+
+.illustration-container {
+  max-width: 23.125rem;
+}
+
+.illustration-image {
+  width: 100%;
+}
+
+/* Third section iteration */
