@@ -1,7 +1,8 @@
 p,
 h1,
 button,
-a {
+a,
+div {
   padding: 0;
   margin: 0;
   font-family: Gabarito;
@@ -21,18 +22,74 @@ body {
   display: none;
 }
 
+/* Web nav header implementation */
+.nav,
+.web-nav {
+  justify-items: center;
+}
 
+.nav-bar-main {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+  border: 0.02rem solid rgba(239, 241, 239, 1);
+  border-radius: 5rem;
+  padding: 0.563rem;
+  margin-block-start: 1rem;
+}
+
+.main-navigation {
+  display: grid;
+  grid-template-columns: 5rem 6rem 5rem 5rem 5rem;
+  gap: 1rem;
+  align-items: center;
+  width: 80%;
+}
+
+.home-nav,
+.products-nav,
+.about-nav,
+.contact-nav,
+.faq-nav {
+  color: rgba(100, 108, 96, 1);
+  align-items: center;
+  text-align: center;
+}
+
+.products-nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.chevron-bottom {
+  padding-block-start: 0.2rem;
+}
+
+/* .home-nav {
+  background-color: rgba(89, 181, 71, 1);
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 5rem;
+} */
+
+.download-button {
+  background-color: rgba(25, 27, 24, 1);
+  color: white;
+  border: 0 solid;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+}
 
 /* Universal usage - GENERAL USAGE */
-
 
 
 /* Universal usage - WAITLIST */
 
 
 /* Universal usage -STORE ACCESS */
-
-
 
 
 /* Universal usage - FOOTER */

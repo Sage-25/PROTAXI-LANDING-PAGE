@@ -1,0 +1,13 @@
+.home-hero-section {
+  justify-items: center;
+  position: relative;
+  bottom: 5.2rem;
+}
+
+.home-image-container {
+  max-width: 100%;
+}
+
+.home-image {
+  width: 166rem;
+}
