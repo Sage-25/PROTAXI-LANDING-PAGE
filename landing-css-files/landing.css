@@ -193,7 +193,7 @@
 /* Fifth section iteration */
  .fifth-section {
   display: grid;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 2rem;
   background-color: rgba(25, 27, 24, 1);
   padding: 4.375rem 3.75rem;
@@ -217,7 +217,7 @@
  }
 
  .tab-container-main {
-  max-width: 30rem;
+  max-width: 50rem;
  }
 
  .tab-container {
@@ -353,8 +353,8 @@
   display: grid;
   justify-content: center;
   gap: 2rem;
+  margin-block-end: 7rem;
 }
-
 
 .blog-post-container {
   display: grid;
@@ -363,8 +363,20 @@
 
 .blog-main-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.blog-container {
+  display: grid;
+  justify-content: center;
+  background-color: white;
+  border-radius: 1rem;
+  border-radius: 0.2rem solid rgba(239, 241, 239, 1);
+  border: 0.02rem solid rgba(239, 241, 239, 1);
+  padding-block-end: 1.5rem;
+  box-shadow: 0 0.625rem 2.294rem rgba(166, 175, 162, 0.05);
 }
 
 .seventh-header {
@@ -372,4 +384,16 @@
   font-weight: bold;
   font-size: 2.75rem;
   color: rgba(25, 27, 24, 1);
+}
+
+.image-one {
+  width: 100%;
+}
+
+.blog-bottom-body {
+  font-size: 1.625rem;
+  font-weight: bold;
+  color: rgba(25, 27, 24, 1);
+  margin-block: 1rem;
+  margin-inline: 1.5rem;
 }
