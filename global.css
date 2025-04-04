@@ -404,7 +404,12 @@ footer {
   }
 
   .store-buttons-main-filled {
+    grid-template-columns: none;
     gap: 1rem;
+  }
+
+  .store-buttons-filled {
+    padding: 0.5rem 5rem;;
   }
 
   .responsive-nav {
