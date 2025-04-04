@@ -11,6 +11,8 @@
   justify-content: center;
   margin-block-start: 13rem;
   max-width: 40rem;
+  position: relative;
+  bottom: 6rem;
 }
 
 .home-hero-section {
@@ -191,9 +193,15 @@
 }
 
 /* Fifth section iteration */
+.background-arrow {
+  background-image: url(../landing-image-asset/arrow-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: ;
+}
+
  .fifth-section {
   display: grid;
-  /* justify-content: center; */
   gap: 2rem;
   background-color: rgba(25, 27, 24, 1);
   padding: 4.375rem 3.75rem;
