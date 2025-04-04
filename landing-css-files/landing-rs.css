@@ -15,6 +15,7 @@
   }
 
   .second-section-text-container {
+    margin-block-start: 0;
     order: 1;
   }
 

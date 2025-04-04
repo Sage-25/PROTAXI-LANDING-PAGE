@@ -52,6 +52,10 @@
   margin-block-end: 7rem;
 }
 
+.second-section-text-container {
+  margin-block-start: 5rem;
+}
+
 .second-section-text {
   display: grid;
   gap: 1rem;
