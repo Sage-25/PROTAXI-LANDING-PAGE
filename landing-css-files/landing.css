@@ -3,8 +3,13 @@
   color: white;
   padding: 0.8rem 1rem;
   border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
+.home-nav:hover {
+  background-color: rgb(143, 199, 131);
+}
 /* Home-hero-section */
 .home-hero-section {
   display: grid;
