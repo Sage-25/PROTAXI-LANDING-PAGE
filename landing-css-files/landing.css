@@ -10,7 +10,7 @@
   display: grid;
   justify-content: center;
   margin-block-start: 13rem;
-  max-width: 40%;
+  max-width: 40rem;
   position: relative;
   bottom: 6rem;
   margin-inline: 1.5rem;
@@ -393,6 +393,10 @@
   font-weight: bold;
   font-size: 2.75rem;
   color: rgba(25, 27, 24, 1);
+}
+
+.image-one-container {
+  max-width: auto;
 }
 
 .image-one {

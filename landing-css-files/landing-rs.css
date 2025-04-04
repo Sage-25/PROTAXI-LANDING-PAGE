@@ -1,8 +1,7 @@
 @media (max-width: 800px) {
-  .home-hero-section {
+  /* .home-hero-section {
     max-width: 40rem;
-  }
-
+  } */
 
   .hero-header-two {
     font-size: 2.125rem;
@@ -24,7 +23,7 @@
   }
 
   .illustration-container {
-    max-width: none;
+    max-width: 100%;
   }
 
   .third-section-content {
@@ -46,7 +45,7 @@
   }
 
   .fourth-image-container {
-    max-width: none;
+    max-width: 100%;
   }
 
   .fourth-main-header {
@@ -69,7 +68,7 @@
   }
 
   .img-four-container {
-    max-width: none;
+    max-width: 100%;
    }
    
    .sixth-section {
@@ -92,7 +91,7 @@
    }
 
    .img-five-container {
-    max-width: none;
+    max-width: 100%;
   }
 
   .seventh-section {
