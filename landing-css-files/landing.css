@@ -10,9 +10,10 @@
   display: grid;
   justify-content: center;
   margin-block-start: 13rem;
-  max-width: 40rem;
+  max-width: 40%;
   position: relative;
   bottom: 6rem;
+  margin-inline: 1.5rem;
 }
 
 .home-hero-section {
