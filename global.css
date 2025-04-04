@@ -35,7 +35,7 @@ section {
 /* Web nav header implementation */
 .header-wrapper {
   justify-items: center;
-  background-image: url(../landing-image-asset/hero-image.svg);
+  background-image: url(./landing-image-asset/hero-image.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
