@@ -33,13 +33,16 @@ section {
 }
 
 /* Web nav header implementation */
-.header-wrapper {
-  justify-items: center;
+.header-wrapper-container {
   background-image: url(./landing-image-asset/hero-image.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 5;
+}
+
+.header-wrapper {
+  justify-items: center;
 }
 
 .nav-bar-main {
@@ -55,6 +58,44 @@ section {
   top: 1rem;
   z-index: 1;
 }
+
+/* HOME HERO SECTION */
+.home-hero-section {
+  display: grid;
+  justify-content: center;
+  margin-block-start: 13rem;
+  max-width: 40rem;
+  position: relative;
+  bottom: 6rem;
+  margin-inline: 1.5rem;
+}
+
+.home-hero-section {
+  display: grid;
+  text-align: center;
+}
+
+.hero-header-two {
+  color: white;
+  font-size: 4.375rem;
+  margin-block-end: 1rem;
+  width: 100%;
+  line-height: 4.5rem;
+}
+
+.hero-header-body {
+  color: rgba(248, 255, 247, 1);
+  margin-block-end: 2rem;
+  width: 100%;
+}
+
+/* .trans-arrow {
+  position: relative;
+  bottom: 4rem;
+  left: 10rem;
+} */
+
+/* HOME HERO SECTION ENDS HERE */
 
 /* HOVER ITERATION OF THE HEADER */
 .menu-hover {
@@ -528,6 +569,11 @@ footer {
 
 /* Responive view */
 @media (max-width: 800px) {
+  .hero-header-two {
+    font-size: 2.125rem;
+    line-height: 2rem;
+  }
+
   .web-nav {
     display: none;
   }

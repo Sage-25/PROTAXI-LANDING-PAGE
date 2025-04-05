@@ -1,13 +1,4 @@
 @media (max-width: 800px) {
-  /* .home-hero-section {
-    max-width: 40rem;
-  } */
-
-  .hero-header-two {
-    font-size: 2.125rem;
-    line-height: 2rem;
-  }
-
   .second-section {
     grid-template-columns: none;
     gap: 2rem;
