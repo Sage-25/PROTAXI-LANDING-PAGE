@@ -33,7 +33,7 @@ section {
 }
 
 /* Web nav header implementation */
-.header-wrapper-container {
+.landing-wrapper-container {
   background-image: url(./landing-image-asset/hero-image.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -160,7 +160,7 @@ section {
 
 .main-navigation {
   display: grid;
-  grid-template-columns: 5rem 6rem 5rem 5rem 5rem;
+  grid-template-columns: 5rem 8rem 5rem 5rem 5rem;
   gap: 1rem;
   align-items: center;
 }
@@ -288,6 +288,14 @@ section {
 
 .page-icon {
   margin-block-start: 0.3rem;
+}
+
+/* DOWNLOAD APP BUTTON */
+.download-app-button {
+  background-color: transparent;
+  border: 0.02rem solid rgba(25, 27, 24, 1);
+  padding: 0.625rem 3rem;
+  border-radius: 1.625rem;
 }
 
 /* STORE BUTTON WHITE */
