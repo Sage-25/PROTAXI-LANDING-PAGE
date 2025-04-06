@@ -123,6 +123,10 @@
   margin-block-end: 7rem;
 }
 
+.fourth-section-main {
+  display: grid;
+}
+
 .fourth-text-container {
   display: grid;
   max-width: 35rem;
@@ -132,11 +136,13 @@
   font-weight: bold;
   font-size: 2.75rem;
   color: rgba(25, 27, 24, 1);
+  width: 100%;
 }
 
 .fourth-main-body {
   font-size: 1.25rem;
   color: rgba(100, 108, 96, 1);
+  width: 100%;
 }
 
 .fourth-main {

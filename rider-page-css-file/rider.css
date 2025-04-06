@@ -20,19 +20,19 @@
 }
 
 .rider-wrapper-container {
-  background-image: url(/rider-image-asset/hero-arrow.svg);
+  background-image: url(./rider-image-asset/hero-arrow.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  z-index: 5;
 }
 
 .hero-header-two {
   color: rgba(25, 27, 24, 1);
+  width: 100%;
 }
 
 .hero-header-body {
   color: rgba(100, 108, 96, 1);
+  width: 100%;
 }
 
 /* BODY SECTION ITERATION - SECOND */
@@ -40,29 +40,33 @@
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
+  justify-content: center;
   gap: 5rem;
   margin-block: 5rem 7rem;
 }
 
-.rd-content-main-container {
+/* .rd-content-main-container {
   display: grid;
   gap: 2rem;
-}
+} */
 
 .rd-main-header {
   font-weight: bold;
   font-size: 2.75rem;
   color: rgba(25, 27, 24, 1);
+  margin-block-end: 1.5rem;
 }
 
 .rd-main-body {
   font-size: 1.25rem;
   color: rgba(100, 108, 96, 1);
+  margin-block-end: 1.5rem;
 }
 
 .rd-eco-alignment {
   display: grid;
   gap: 2rem;
+  margin-block-end: 1.5rem;
 }
 
 .rd-eco-main {
