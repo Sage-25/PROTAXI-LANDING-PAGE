@@ -20,7 +20,7 @@
 }
 
 .rider-wrapper-container {
-  background-image: url(./rider-image-asset/hero-arrow.svg);
+  background-image: url(../rider-image-asset/hero-arrow.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }

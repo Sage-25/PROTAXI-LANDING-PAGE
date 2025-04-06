@@ -1,0 +1,128 @@
+.about-nav {
+  background-color: rgba(89, 181, 71, 1);
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.about-nav:hover {
+  background-color: rgb(143, 199, 131);
+  color: white;
+}
+
+/* HERO SECTION ITERATION */
+.home-hero-section {
+  justify-items: center;
+  max-width: 50rem;
+  margin-inline: 1.5rem;
+}
+
+.about-wrapper-container {
+  background-image: url(/about-image-asset/about-hero-section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header-two {
+  color: rgba(25, 27, 24, 1);
+  width: 100%;
+}
+
+.hero-header-body {
+  color: rgba(100, 108, 96, 1);
+  width: 100%;
+}
+
+.hero-header-two {
+  color: white;
+}
+
+.hero-header-body {
+  color: rgba(248, 255, 247, 1);
+}
+
+/* SECOND SECTION ITERATION */
+.second-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  margin-block: 7rem 7rem;
+  gap: 5rem;
+  background-color: rgba(25, 27, 24, 1);
+  padding: 4.375rem 3.75rem ;
+  border-radius: 2.563rem;
+}
+
+.ab-header-text {
+  font-weight: bold;
+  font-size: 2.75rem;
+  color: white;
+  margin-block-end: 1.5rem;
+}
+
+.ab-body-text {
+  font-size: 1.25rem;
+  color: rgba(203, 207, 201, 1);
+}
+
+.ab-second-image-container {
+  max-width: 26.813rem;
+}
+
+.ab-second-image {
+  width: 100%;
+}
+
+/* THIRD SECTION ITERATION */
+.third-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 5rem;
+  margin-block-end: 7rem;
+}
+
+.ab-td-header {
+  font-weight: bold;
+  font-size: 2.75rem;
+  color: rgba(25, 27, 24, 1);
+  margin-block-end: 1rem;
+}
+
+.ab-td-body {
+  font-weight: 1.25rem;
+  color: rgba(100, 108, 96, 1);
+  margin-block-end: 1.5rem;
+}
+
+.ab-values-wrapper {
+  display: grid;
+  gap: 3rem;
+}
+
+.ab-content-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.ab-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(25, 27, 24, 1);
+  margin-block: 0.5rem 0.7rem;
+}
+
+.ab-body {
+  color: rgba(100, 108, 96, 1);
+}
+
+.ab-third-image-container {
+  max-width: 30.5rem;
+}
+
+.ab-third-image {
+  width: 100%;
+}

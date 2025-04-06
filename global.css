@@ -687,6 +687,6 @@ footer {
 
 @media (max-width: 500px) {
   .download-app-button {
-    padding: 0.625rem 9rem;
+    padding: 0.625rem auto;
   }
 }

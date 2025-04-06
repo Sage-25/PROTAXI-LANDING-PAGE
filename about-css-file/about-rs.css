@@ -1,0 +1,32 @@
+@media (max-width: 910px) {
+  .second-section {
+    grid-template-columns: none;
+    margin-block: 5rem 5rem;
+    gap: 3rem;
+    padding: 1.5rem 1.25rem ;
+    border-radius: 1.5rem;
+  }
+
+  .ab-second-image-container {
+    max-width: none;
+  }
+
+  .third-section {
+    grid-template-columns: none;
+    gap: 2rem;
+    margin-block-end: 3rem;
+  }
+
+  .ab-td-header {
+    line-height: 2.8rem;
+  }
+
+  .ab-content-main-container {
+    grid-template-columns: none;
+  }
+
+  .ab-third-image-container {
+    max-width: none;
+  }
+
+}

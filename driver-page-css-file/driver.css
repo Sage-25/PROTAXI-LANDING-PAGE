@@ -19,8 +19,8 @@
   margin-inline: 1.5rem;
 }
 
-.rider-wrapper-container {
-  background-image: url(./driver-image-asset/drivers-pattern.svg);
+.driver-wrapper-container {
+  background-image: url(../driver-image-asset/drivers-pattern.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -36,7 +36,7 @@
 }
 
 /* BODY SECTION ITERATION - SECOND */
-.rd-second-section {
+.dr-second-section {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -50,57 +50,57 @@
   gap: 2rem;
 } */
 
-.rd-main-header {
+.dr-main-header {
   font-weight: bold;
   font-size: 2.75rem;
   color: rgba(25, 27, 24, 1);
   margin-block-end: 1.5rem;
 }
 
-.rd-main-body {
+.dr-main-body {
   font-size: 1.25rem;
   color: rgba(100, 108, 96, 1);
   margin-block-end: 1.5rem;
 }
 
-.rd-eco-alignment {
+.dr-eco-alignment {
   display: grid;
   gap: 2rem;
   margin-block-end: 1.5rem;
 }
 
-.rd-eco-main {
+.dr-eco-main {
   display: grid;
   gap: 1rem;
 }
 
-.rd-eco-container {
+.dr-eco-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
-.rd-header {
+.dr-header {
   font-size: 1.25rem;
   font-weight: bold;
   color: rgba(25, 27, 24, 1);
   margin-block-end: 0.5rem;
 }
 
-.rd-body {
+.dr-body {
   color: rgba(100, 108, 96, 1);
 }
 
-.rider-image-container {
+.driver-image-container {
   max-width: 30.5rem;
 }
 
-.rider-image {
+.driver-image {
   width: 100%;
 }
 
 /* THIRD SECTION ITERATION */
-.rd-third-section {
+.dr-third-section {
   display: grid;
   gap: 2rem;
   background-color: rgba(25, 27, 24, 1);
@@ -110,24 +110,24 @@
   margin-block-end: 7rem;
 }
 
-.rd-third-section-container {
+.dr-third-section-container {
   display: grid;
   gap: 1rem;
   text-align: center;
 }
 
-.rd-third-header {
+.dr-third-header {
   color: white;
   font-weight: bold;
   font-size: 2.75rem;
 }
 
-.rd-third-body {
+.dr-third-body {
   color: rgba(151, 159, 147, 1);
   font-size: 1.25rem;
 }
 
-.rd-td-main-container {
+.dr-td-main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
@@ -148,13 +148,13 @@
   border-radius: 5rem;
 }
 
-.rd-td-header {
+.dr-td-header {
   color: white;
   font-weight: bold;
   font-size: 1.25rem;
 }
 
-.rd-td-body {
+.dr-td-body {
   color: rgba(203, 207, 201, 1);
   margin-block-end: 1.5rem;
   margin-inline-start: 1rem;
