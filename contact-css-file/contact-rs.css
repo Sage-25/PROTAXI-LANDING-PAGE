@@ -1,0 +1,27 @@
+@media (max-width:800px) {
+  .second-section {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    margin-block-end: 3rem;
+  }
+
+  .fname-lname-container {
+    grid-template-columns: none;
+  }
+
+  .upload-container {
+    grid-template-columns: none;
+  }
+
+  .third-section {
+    grid-template-columns: none;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    margin-block-end: 3rem;
+  }
+
+  .hero-header-body {
+    font-size: 1rem;
+  }
+}

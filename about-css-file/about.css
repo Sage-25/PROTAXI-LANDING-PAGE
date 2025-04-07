@@ -20,27 +20,20 @@
 }
 
 .about-wrapper-container {
-  background-image: url(/about-image-asset/about-hero-section.svg);
+  background-image: url(../about-image-asset/about-hero-section.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero-header-two {
-  color: rgba(25, 27, 24, 1);
-  width: 100%;
-}
-
-.hero-header-body {
-  color: rgba(100, 108, 96, 1);
-  width: 100%;
-}
-
-.hero-header-two {
   color: white;
+  width: 100%;
 }
 
 .hero-header-body {
+  font-size: 1.25rem;
   color: rgba(248, 255, 247, 1);
+  width: 100%;
 }
 
 /* SECOND SECTION ITERATION */

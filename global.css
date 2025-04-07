@@ -84,6 +84,7 @@ section {
 }
 
 .hero-header-body {
+  font-size: 1.25rem;
   color: rgba(248, 255, 247, 1);
   margin-block-end: 2rem;
   width: 100%;
@@ -401,6 +402,8 @@ input {
   border: 0.02rem solid rgba(151, 159, 147, 1);
   color: rgba(151, 159, 147, 1);
   border-radius: 5rem;
+  background-color: transparent;
+  font-family: Gabarito;
 }
 
 .form-button-container {
