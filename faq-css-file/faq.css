@@ -1,0 +1,88 @@
+.faq-nav {
+  background-color: rgba(89, 181, 71, 1);
+  color: white;
+  padding: 0.8rem 0.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.faq-nav:hover {
+  background-color: rgb(143, 199, 131);
+  color: white;
+}
+
+/* HERO SECTION ITERATION */
+.home-hero-section {
+  justify-items: center;
+  max-width: 50rem;
+  margin-inline: 1.5rem;
+}
+
+.faq-wrapper-container {
+  background-image: url(../driver-image-asset/drivers-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header-two {
+  color: rgba(25, 27, 24, 1);
+  width: 100%;
+}
+
+.hero-header-body {
+  font-size: 1.25rem;
+  color: rgba(100, 108, 96, 1);
+  width: 100%;
+}
+
+/* SECOND SECTION ITERATION */
+.tag-main {
+  display: grid;
+  grid-template-columns: 5rem 5rem;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-block-end: 2rem;
+}
+
+.rider-tag-container {
+  padding-block-end: 0.5rem;
+  border-bottom: 0.02rem solid rgba(89, 181, 71, 1);
+}
+
+.rider-tag {
+  color: rgba(25, 27, 24, 1);
+}
+
+.driver-tag-container {
+  padding-block-end: 0.5rem;
+}
+
+.driver-tag {
+  color: rgba(203, 207, 201, 1);
+}
+
+/* THIRD SECTION ITERATION */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-block-end: 7rem;
+}
+
+.faq-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2rem;
+  border: 0.02rem solid rgba(239, 241, 239, 1);
+  border-radius: 1.5rem;
+  box-shadow: 0 0.625rem 2.294rem rgba(166, 175, 162, 0.05);
+}
+
+.faq-text {
+  font-size: 1.25rem;
+  color: rgba(25, 27, 24, 1);
+}

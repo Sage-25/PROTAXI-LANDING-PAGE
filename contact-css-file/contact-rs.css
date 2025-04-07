@@ -19,6 +19,7 @@
     padding: 1.5rem;
     border-radius: 1.5rem;
     margin-block-end: 3rem;
+    gap: 2rem;
   }
 
   .hero-header-body {

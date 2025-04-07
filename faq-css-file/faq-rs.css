@@ -1,0 +1,5 @@
+@media (max-width: 800px) {
+  .faq-container {
+    margin-block-end: 3rem;
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+  .td-blog-blog-container-main {
+    grid-template-columns: none;
+  }
+
+  .blog-text {
+    font-size: 1.25rem;
+  }
+}
