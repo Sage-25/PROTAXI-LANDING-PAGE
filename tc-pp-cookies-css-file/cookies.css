@@ -1,0 +1,91 @@
+.cookies {
+  font-size: 0.75rem;
+  color: rgba(89, 181, 71, 1);
+  padding: 0.8rem 0.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cookies:hover {
+  color: rgb(165, 235, 151);
+}
+
+/* HERO SECTION ITERATION */
+.home-hero-section {
+  justify-items: center;
+  max-width: 75rem;
+  margin-inline: 1.5rem;
+}
+
+.cp-wrapper-container {
+  background-image: url(../driver-image-asset/drivers-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header-two {
+  color: rgba(25, 27, 24, 1);
+  width: 100%;
+}
+
+.hero-header-body {
+  font-size: 1.25rem;
+  color: rgba(100, 108, 96, 1);
+  width: 100%;
+}
+
+/* SECOND SECTION ITERATION */
+.cp-second-section {
+  display: grid;
+  background-color: white;
+  border: 0.02rem solid rgba(239, 241, 239, 1);
+  border-radius: 2.5rem;
+  padding: 3.125rem;
+  margin-block-end: 5rem;
+  margin-block-start: -5rem;
+}
+
+.cp-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(25, 27, 24, 1);
+  margin-block-end: 0.5rem;
+}
+
+.cp-header-dark {
+  color: rgba(25, 27, 24, 1);
+  margin-block-end: 0.5rem;
+}
+
+.cp-header-dark-container {
+  margin-block: 1rem 1rem;
+}
+
+.cp-header-dark-container-two {
+  margin-block-start: 1rem;
+}
+
+.cp-body {
+  color: rgba(100, 108, 96, 1);
+}
+
+.cp-body-ad {
+  margin-block-start: 1.5rem;
+  color: rgba(100, 108, 96, 1);
+}
+
+.cp-body-ad-two {
+  margin-block-start: 1.5rem;
+  color: rgba(100, 108, 96, 1);
+  margin-block-end: 1rem;
+}
+
+.cp-body-bold {
+  color: rgba(25, 27, 24, 1);
+  font-weight: bold;
+}
+
+.cp-text-container {
+  margin-block-end: 1.5rem;
+}

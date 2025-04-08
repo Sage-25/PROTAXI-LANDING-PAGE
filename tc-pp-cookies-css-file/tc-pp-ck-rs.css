@@ -1,0 +1,22 @@
+@media (max-width: 800px) {
+  .tc-second-section {
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-block-end: 3rem;
+    margin-block-start: -5rem;
+  }
+
+  .pp-second-section {
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-block-end: 3rem;
+    margin-block-start: -5rem;
+  }
+
+  .cp-second-section {
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-block-end: 3rem;
+    margin-block-start: -5rem;
+  }
+}
