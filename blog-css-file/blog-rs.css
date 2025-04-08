@@ -3,6 +3,10 @@
     grid-template-columns: none;
   }
 
+  .blog-main-container {
+    margin-block: 2rem;
+  }
+
   .blog-text {
     font-size: 1.25rem;
   }
