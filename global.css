@@ -157,8 +157,8 @@ section {
 .trigger-body {
   color: rgba(151, 159, 147, 1);
 }
-/* HOVER ITERATION ENDS HERE */
 
+/* HOVER ITERATION ENDS HERE */
 .main-navigation {
   display: grid;
   grid-template-columns: 5rem 8rem 5rem 5rem 5rem;
@@ -494,7 +494,7 @@ footer {
 
 .footer-container {
   display: grid;
-  max-width: 80rem;
+  max-width: 78rem;
 }
 
 .footer-main-container {
