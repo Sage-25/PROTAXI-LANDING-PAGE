@@ -134,7 +134,7 @@
   gap: 3rem;
 }
 
-.rd-third-content-container {
+.dr-third-content-container {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
