@@ -145,6 +145,10 @@ section {
   gap: 1rem;
 }
 
+.hyperlink-container {
+  text-decoration: none;
+}
+
 .trigger-header {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -174,6 +178,7 @@ section {
   color: rgba(100, 108, 96, 1);
   align-items: center;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -279,12 +284,17 @@ section {
   padding: 0.5rem 2rem;
   max-width: 12rem;
   margin-inline-start: 1.5rem;
+  /* text-decoration: none; */
   cursor: pointer;
   transition: 0.2s;
 }
 
 .page-button-container:hover {
   background-color: rgb(72, 75, 71);
+}
+
+.page-button-container-hyperlink {
+  text-decoration: none;
 }
 
 .page-icon {
@@ -521,6 +531,11 @@ footer {
   width: 100%;
 }
 
+.anchor-tags {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-tiny-text-second,
 .footer-tiny-text-first {
   font-size: 0.625rem;
@@ -543,6 +558,7 @@ footer {
   margin-block-end: 0.3rem;
   cursor: pointer;
   transition: 0.2s;
+  text-decoration: none;
 }
 
 .footer-body-second:hover,
@@ -579,6 +595,7 @@ footer {
 .bottom-text {
   color: rgba(203, 207, 201, 1);
   font-size: 0.75rem;
+  text-decoration: none;
   cursor: pointer;
   transition: 0.2s;
 }
