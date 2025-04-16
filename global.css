@@ -180,7 +180,7 @@ section {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 
 .products-nav:hover,
@@ -194,6 +194,14 @@ section {
   display: block;
 }
 
+.products-nav:hover .chevron-bottom {
+  transform: rotate(-180deg);
+}
+
+.chevron-bottom:hover {
+  transform: rotate(-180deg);
+}
+
 .products-nav {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -202,6 +210,7 @@ section {
 .chevron-bottom {
   padding-block-start: 0.2rem;
 }
+
 
 /* .home-nav {
   background-color: rgba(89, 181, 71, 1);
