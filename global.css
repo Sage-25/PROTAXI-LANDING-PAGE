@@ -34,7 +34,7 @@ section {
 
 /* Web nav header implementation */
 .landing-wrapper-container {
-  background-image: url(./landing-image-asset/hero-image.svg);
+  background-image: url(https://res.cloudinary.com/dgx8jcnmq/image/upload/v1746561039/protaxi-asset/landing-image-asset/hero-image_h7wk4p.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -195,10 +195,6 @@ section {
 }
 
 .products-nav:hover .chevron-bottom {
-  transform: rotate(-180deg);
-}
-
-.chevron-bottom:hover {
   transform: rotate(-180deg);
 }
 
